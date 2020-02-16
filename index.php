@@ -6,8 +6,10 @@ ini_set('memory_limit',-1);
 
 $i = 0;
 $a = [];
-while($i <= 100) {
+while($i <= 15) {
     $a[] = $i;
     $a[] = json_encode($a);
     $i++;
 }
+
+var_dump($a);
